@@ -1,5 +1,4 @@
 # BootCamp_HW3
-![GfpTAY_59a260301115c9ec72c35be7ca574618_00-00-00_00-00-35_2](https://user-images.githubusercontent.com/48966180/174899791-2dcc634e-0354-4483-915b-91892fe22a41.gif)
 
 ### Every listener has the same line of codes except the button's values. Example of listener functionality.
             binding.buttonSeven.setOnClickListener{
@@ -62,3 +61,6 @@
                             Snackbar.make(binding.root,"You can not add more number",Snackbar.LENGTH_SHORT).show()
                         }
                     }
+
+
+![GfpTAY_59a260301115c9ec72c35be7ca574618_00-00-00_00-00-35_2](https://user-images.githubusercontent.com/48966180/174899791-2dcc634e-0354-4483-915b-91892fe22a41.gif)
