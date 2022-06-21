@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sonuc"
+    android:backgroundTintMode="add"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonOne"
+        android:layout_width="100dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/butonsayi"
+        android:backgroundTint="@color/buton"
+        android:fontFamily="@font/poppins_medium"
+        android:text="1"
+        android:textColor="@color/butonText"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonZero"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonFour"
+        android:layout_width="100dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/butonsayi"
+        android:backgroundTint="@color/buton"
+        android:fontFamily="@font/poppins_medium"
+        android:text="4"
+        android:textColor="@color/butonText"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonOne"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonSeven"
+        android:layout_width="100dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/butonsayi"
+        android:backgroundTint="@color/buton"
+        android:fontFamily="@font/poppins_medium"
+        android:text="7"
+        android:textColor="@color/butonText"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonFour"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonEight"
+        android:layout_width="100dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/butonsayi"
+        android:backgroundTint="@color/buton"
+        android:fontFamily="@font/poppins_medium"
+        android:password="false"
+        android:text="8"
+        android:textColor="@color/butonText"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonFour"
+        app:layout_constraintStart_toEndOf="@+id/buttonSeven" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonNine"
+        android:layout_width="100dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/butonsayi"
+        android:backgroundTint="@color/buton"
+        android:fontFamily="@font/poppins_medium"
+        android:text="9"
+        android:textColor="@color/butonText"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonFour"
+        app:layout_constraintStart_toEndOf="@+id/buttonEight" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonFive"
+        android:layout_width="100dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/butonsayi"
+        android:backgroundTint="@color/buton"
+        android:fontFamily="@font/poppins_medium"
+        android:text="5"
+        android:textColor="@color/butonText"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonTwo"
+        app:layout_constraintStart_toEndOf="@+id/buttonFour" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonSix"
+        android:layout_width="100dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/butonsayi"
+        android:backgroundTint="@color/buton"
+        android:fontFamily="@font/poppins_medium"
+        android:text="6"
+        android:textColor="@color/butonText"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonThree"
+        app:layout_constraintStart_toEndOf="@+id/buttonFive" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonTwo"
+        android:layout_width="100dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/butonsayi"
+        android:backgroundTint="@color/buton"
+        android:fontFamily="@font/poppins_medium"
+        android:text="2"
+        android:textColor="@color/butonText"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonZero"
+        app:layout_constraintStart_toEndOf="@+id/buttonOne" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonThree"
+        android:layout_width="100dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/butonsayi"
+        android:backgroundTint="@color/buton"
+        android:fontFamily="@font/poppins_medium"
+        android:text="3"
+        android:textColor="@color/butonText"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonZero"
+        app:layout_constraintStart_toEndOf="@+id/buttonTwo" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonEqu"
+        android:layout_width="100dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/butonsayi"
+        android:backgroundTint="@color/yanButon"
+        android:fontFamily="@font/poppins_medium"
+        android:text="="
+        android:textColor="@color/butonText"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonZero" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonZero"
+        android:layout_width="307dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/butonsayi"
+        android:backgroundTint="@color/buton"
+        android:fontFamily="@font/poppins_medium"
+        android:text="0"
+        android:textColor="@color/butonText"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonC"
+        android:layout_width="306dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/butonsayi"
+        android:backgroundTint="@color/ustBotn"
+        android:fontFamily="@font/poppins_medium"
+        android:text="C"
+        android:textColor="@color/butonText"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSeven"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonPlus"
+        android:layout_width="100dp"
+        android:layout_height="440dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/butonsayi"
+        android:backgroundTint="@color/yanButon"
+        android:fontFamily="@font/poppins_medium"
+        android:text="+"
+        android:textColor="@color/butonText"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonEqu"
+        app:layout_constraintStart_toEndOf="@+id/buttonSix" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="-30dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="0"
+        android:textAlignment="textEnd"
+        android:textColor="@color/butonText"
+        android:textSize="80sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonPlus"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
